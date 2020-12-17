@@ -1,0 +1,68 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ @import "slick-theme";
+ @import "slick";
+
+#slider{
+  height: 500px;
+}
+
+/*.image1 {*/
+/*  background-color: black;*/
+/*  background-size: 400 ;*/
+/*}*/
+/*.image2 {*/
+/*  background-color: blue;*/
+/*}*/
+/*.image3 {*/
+/*  background-color: red;*/
+/*}*/
+
+/*.image4 {*/
+/*  background-color: yellow;*/
+/*}*/
+/*.image5 {*/
+/*  background-color: green;*/
+/*}*/
+
+.image1 {
+  background-image: url(image1.jpg);
+  height: 300px;
+  width: 300px;
+}
+.image2 {
+  background-image: url(image2.jpg);
+  height: 300px;
+  width: 300px;
+}
+.image3 {
+  background-image: url(image3.jpg);
+  height: 300px;
+  width: 300px;
+}
+
+.image4 {
+  background-image: url(image4.jpg);
+  height: 300px;
+  width: 300px;
+}
+
+.image5 {
+  background-image: url(image5.jpg);
+  height: 300px;
+  width: 300px;
+}
